@@ -16,8 +16,10 @@ body {
 header {
     background: white;
     min-height: 80px;
+    width: 100%;
     font-weight: 900;
-    font-family: 'Jesefin Sans', sans-serif; 
+    font-family: 'Josefin Sans', sans-serif;
+    
 }
 
 /* Styling nav bar direction  */
@@ -63,4 +65,23 @@ ul h1 {
     color:rgba(244, 202, 10, 1);
     font-size: 150%;
 
+}
+
+/* Cover image stretching the full width and lenght from the section */
+
+#cover {
+    background-image: url("../images/Ludmilla-Mary-by-Richard-Rhyme.jpg");
+    min-height: 950px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Retun to one section of the header */
+
+#tip {
+    background-color: rgba(203, 116, 135, 1);
+    min-height: 800px;
+    width: 100%;
 }
