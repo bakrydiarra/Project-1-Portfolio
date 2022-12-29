@@ -1,22 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Monsieur+La+Doulaise&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Josefin+Sans:ital@1&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-    background-color: rgba(203, 116, 135, 1);
+    
 }
 
 /* Header Styling */
 
-header {
-    background: white;
-    min-height: 40px;
-    font-weight: 900;
-    font-family: roboto, sans-serif;
-    
+body {
+    background-color: rgba(203, 116, 135, 1);
 }
 
-/* Styling nav bar  */
+header {
+    background: white;
+    min-height: 80px;
+    font-weight: 900;
+    font-family: 'Jesefin Sans', sans-serif; 
+}
 
+/* Styling nav bar direction  */
 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Nav items styling */
+
+.nav-item {
+    list-style-type: none;
+     margin: 2rem;
+}
+
+/* Nav items styling */
+
+.nav-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(203, 116, 135, 1);
+}
+
+/* Nav items styling */
+
+.nav-item:first-child {
+    margin-right: auto;
+}
+
+/* Navigation logo styling */
+    
+ul h1 {
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+/* Navigation links interactivity styling */
+
+.nav-item a:hover {
+    color:rgba(244, 202, 10, 1);
+    font-size: 150%;
+
+}
