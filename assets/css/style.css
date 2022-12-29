@@ -9,9 +9,6 @@
 
 /* Header Styling */
 
-body {
-    background-color: rgba(203, 116, 135, 1);
-}
 
 header {
     background: white;
@@ -82,6 +79,20 @@ ul h1 {
 
 #tip {
     background-color: rgba(203, 116, 135, 1);
-    min-height: 800px;
+    min-height: 240px;
     width: 100%;
+}
+
+/* Styling the footer  */
+
+footer {
+    background: white;
+    min-height: 80px;
+    width: 100%;
+}
+
+.social-networks i {
+    font-size: 160%;
+    color:rgba(203, 116, 135, 1);
+
 }
