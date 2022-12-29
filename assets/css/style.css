@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Monsieur+La+Doulaise&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color: rgba(203, 116, 135, 1);
+    font-family: 'dancing script';
+    font-size: 32px;
 }
