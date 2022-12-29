@@ -4,10 +4,19 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: rgba(203, 116, 135, 1);
 }
 
-body {
-    background-color: rgba(203, 116, 135, 1);
-    font-family: 'dancing script';
-    font-size: 32px;
+/* Header Styling */
+
+header {
+    background: white;
+    min-height: 40px;
+    font-weight: 900;
+    font-family: roboto, sans-serif;
+    
 }
+
+/* Styling nav bar  */
+
+
