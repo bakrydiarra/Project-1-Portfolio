@@ -80,6 +80,12 @@ ul h1 {
 
 }
 
+/* Styling navigation to signify in which page the user is */
+
+.active {
+    border-bottom: 3px solid rgba(0, 85, 102,1);
+}
+
 /* Cover image stretching the full width and lenght from the section -Home Page  */
 
 #cover {
