@@ -117,8 +117,26 @@ ul h1 {
     align-items: center;
 }
 
+/* Responsive breaking point 500px  */
+
+@media (max-width: 505px) {
+    .motto {
+        flex-direction: column;
+    }
+}
+
+/* Styling of the motto postioning, dimension -Home page */
+
 .align-motto {
     display: flex;
+}
+
+/* Responsive breaking point 725px  */
+
+@media (max-width:725px) {
+    .align-motto {
+        flex-direction: column;
+    }
 }
 
 /* Styling of the typography of the motto - home page  */
