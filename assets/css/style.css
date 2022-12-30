@@ -7,6 +7,16 @@
     
 }
 
+/* Set two variable for color  */
+
+:root {
+    --mypink: rgba(203, 116, 135, 1);
+}
+
+:root {
+    --myyellow: rgba(244, 202, 10, 1);
+}
+
 /* Header Styling */
 
 
@@ -39,7 +49,7 @@ header {
 .nav-item a {
     text-transform: uppercase;
     text-decoration: none;
-    color: rgba(203, 116, 135, 1);
+    color: var(--mypink)
 }
 
 /* Nav items styling */
@@ -59,7 +69,7 @@ ul h1 {
 /* Navigation links interactivity styling */
 
 .nav-item a:hover {
-    color:rgba(244, 202, 10, 1);
+    color: var(--myyellow);
     font-size: 150%;
 
 }
@@ -75,10 +85,35 @@ ul h1 {
     background-size: cover;
 }
 
+/* Styling the motto home page  */
+
+.motto {
+    display: flex;
+}
+
+.motto li {
+    list-style: none;
+}
+
+.motto div {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motto div {
+    font-size: 72px;
+}
+
+
+
+
 /* Retun to one section of the header */
 
 #tip {
-    background-color: rgba(203, 116, 135, 1);
+    background-color: var(--mypink);
     min-height: 240px;
     width: 100%;
 }
@@ -93,6 +128,6 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    color:rgba(203, 116, 135, 1);
+    color: var(--mypink);
 
 }
