@@ -19,6 +19,10 @@
     --myyellow: rgba(244, 202, 10, 1);
 }
 
+:root {
+    --myblue: rgba(0, 85, 102,1);
+}
+
 /* Header Styling - all pages */
 
 
@@ -140,6 +144,32 @@ ul h1 {
     width: 100%;
 }
 
+/* styling of the heading for the last section before footer - all pages */
+
+#tip h2 {
+    font-family: 'dancing script', sans-serif;
+    font-size: 32px;
+    color: var(--myyellow);
+}
+
+#tip a {
+    text-decoration: none;
+}
+
+#tip h2:hover {
+    color: var(--myblue);
+    font-size: 355%;
+}
+
+
+/* positioning of the heading center in the secton - all pages */
+
+#tip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Styling the footer - all pages  */
 
 footer {
@@ -158,7 +188,7 @@ footer {
     list-style-type: none;
 }
 
-/* icon interactivity styling  */
+/* icon interactivity styling footer - all pages  */
 
 .social-networks a:hover {
     font-size: 150%;
