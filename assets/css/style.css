@@ -85,7 +85,7 @@ ul h1 {
     background-size: cover;
 }
 
-/* Styling the motto home page  */
+/* Styling of the motto home page, postioning, dimension */
 
 .motto {
     display: flex;
@@ -103,11 +103,25 @@ ul h1 {
     align-items: center;
 }
 
+/* Styling of the typography of the motto */
+
 .motto div {
     font-size: 72px;
+    color: var(--myyellow);
+    text-shadow: 0 0 15px var(--myyellow), 0 0 25px var(--myyellow);
+    animation: vibrant 1.5s linear infinite;
 }
 
+/* animation effect on the typography of the motto */
 
+@keyframes vibrant {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
 
 
 /* Retun to one section of the header */
