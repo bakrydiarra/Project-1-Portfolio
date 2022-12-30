@@ -17,7 +17,7 @@
     --myyellow: rgba(244, 202, 10, 1);
 }
 
-/* Header Styling */
+/* Header Styling - all pages */
 
 
 header {
@@ -29,7 +29,7 @@ header {
     
 }
 
-/* Styling nav bar direction  */
+/* Styling nav bar direction - all pages  */
 
 .nav-list {
     display: flex;
@@ -37,14 +37,14 @@ header {
     align-items: center;
 }
 
-/* Nav items styling */
+/* Nav items styling - all pages */
 
 .nav-item {
     list-style-type: none;
      margin: 2rem;
 }
 
-/* Nav items styling */
+/* Nav items styling - all pages */
 
 .nav-item a {
     text-transform: uppercase;
@@ -52,13 +52,13 @@ header {
     color: var(--mypink)
 }
 
-/* Nav items styling */
+/* Nav items styling - all pages */
 
 .nav-item:first-child {
     margin-right: auto;
 }
 
-/* Navigation logo styling */
+/* Navigation logo styling - all pages */
     
 ul h1 {
     font-family: 'Dancing Script', sans-serif;
@@ -66,7 +66,7 @@ ul h1 {
     font-weight: 700;
 }
 
-/* Navigation links interactivity styling */
+/* Navigation links interactivity styling - all pages */
 
 .nav-item a:hover {
     color: var(--myyellow);
@@ -74,7 +74,7 @@ ul h1 {
 
 }
 
-/* Cover image stretching the full width and lenght from the section */
+/* Cover image stretching the full width and lenght from the section -Home Page  */
 
 #cover {
     background-image: url("../images/Ludmilla-Mary-by-Richard-Rhyme.jpg");
@@ -85,10 +85,11 @@ ul h1 {
     background-size: cover;
 }
 
-/* Styling of the motto home page, postioning, dimension */
+/* Styling of the motto postioning, dimension -Home page */
 
 .motto {
     display: flex;
+    margin: 2rem;
 }
 
 .motto li {
@@ -103,16 +104,21 @@ ul h1 {
     align-items: center;
 }
 
-/* Styling of the typography of the motto */
+.align-motto {
+    display: flex;
+}
+
+/* Styling of the typography of the motto - home page  */
 
 .motto div {
     font-size: 72px;
+    font-family: 'Dancing script', sans-serif;
     color: var(--myyellow);
     text-shadow: 0 0 15px var(--myyellow), 0 0 25px var(--myyellow);
     animation: vibrant 1.5s linear infinite;
 }
 
-/* animation effect on the typography of the motto */
+/* animation effect on the typography of the motto - home page */
 
 @keyframes vibrant {
     0% {
@@ -128,11 +134,11 @@ ul h1 {
 
 #tip {
     background-color: var(--mypink);
-    min-height: 240px;
+    min-height: 80px;
     width: 100%;
 }
 
-/* Styling the footer  */
+/* Styling the footer - all pages  */
 
 footer {
     background: white;
