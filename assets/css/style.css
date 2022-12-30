@@ -83,6 +83,7 @@ ul h1 {
 /* Cover image stretching the full width and lenght from the section -Home Page  */
 
 #cover {
+    background-color: var(--mypink);
     background-image: url("../images/Ludmilla-Mary-by-Richard-Rhyme.jpg");
     min-height: 950px;
     width: 100%;
