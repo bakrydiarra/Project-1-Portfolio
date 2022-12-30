@@ -7,6 +7,8 @@
     
 }
 
+
+
 /* Set two variable for color  */
 
 :root {
@@ -149,5 +151,32 @@ footer {
 .social-networks i {
     font-size: 160%;
     color: var(--mypink);
+    margin: 2rem;
+}
 
+.social-networks li {
+    list-style-type: none;
+}
+
+/* icon interactivity styling  */
+
+.social-networks a:hover {
+    font-size: 150%;
+}
+
+.social-networks i:hover {
+    color: var(--myyellow);
+}
+
+
+/* postioning the icons in the footer- all pages  */
+
+.social-networks {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
