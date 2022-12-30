@@ -43,6 +43,16 @@ header {
     align-items: center;
 }
 
+/* Responsive resizing navigation breaking-point 480 width - all pages  */
+
+@media (max-width:600px) {
+    .nav-list {
+        flex-direction: column;
+    }
+}
+
+
+
 /* Nav items styling - all pages */
 
 .nav-item {
@@ -96,6 +106,20 @@ ul h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Responsive cover background image beaking point 600 px */
+
+@media (max-width:600px) {
+    #cover {
+        background-color: var(--mypink);
+        background-image: url(../images/Portrait-Ludmilla-Mary-Web.jpg);
+        min-height: 350px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 /* Styling of the motto postioning, dimension -Home page */
