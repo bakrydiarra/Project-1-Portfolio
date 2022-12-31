@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--mypink);
+}
+
 
 
 /* Set two variable for color  */
@@ -261,8 +265,8 @@ footer {
 /* givin a size to paragraph */
 
 .layout-item {
-    width: 384px;
-    height: 384px;
+    width: 600px;
+    height: 950px;
 }
 
 
@@ -275,11 +279,48 @@ footer {
 }
 
 #layout {
-    width: 768px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
 }
+
+/* Set background images cover because source different size to be used with img element  */
+
+#image1 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-walking-on-a-bridge.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#image2 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-by-Jeremy-Patlen\ .jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#image3 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-night-by-Richard-Ryhme.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#image4 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-Portrait-by-Stephany-Hildebrand.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 
