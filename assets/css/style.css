@@ -257,3 +257,29 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* givin a size to paragraph */
+
+.layout-item {
+    width: 384px;
+    height: 384px;
+}
+
+
+/* Positioning img and text - all pages except home page */
+
+#container-layout {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+#layout {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
