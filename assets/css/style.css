@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    
+    box-sizing: border-box;
 }
 
 
@@ -50,8 +50,6 @@ header {
         flex-direction: column;
     }
 }
-
-
 
 /* Nav items styling - all pages */
 
@@ -185,7 +183,7 @@ ul h1 {
 }
 
 
-/* Retun to one section of the header */
+/* direct the user to the next page - all pages */
 
 #tip {
     background-color: var(--mypink);
