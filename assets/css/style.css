@@ -11,6 +11,23 @@ body {
     background-color: var(--mypink);
 }
 
+h2, h1 {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.intro h1 {
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
 
 
 /* Set two variable for color  */
@@ -262,20 +279,20 @@ footer {
     align-items: center;
 }
 
-/* Styling into text - all pages except Home page */
+/* Center intro - all pages except Home page */
 
-#intro {
+.intro {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#intro h1 {
+.intro h1 {
     text-align: center;
     padding-top: 4rem;
 }
 
-#intro p {
+.intro p {
     padding: 2rem;
 }
 
@@ -355,7 +372,31 @@ footer {
     padding: 2rem;
 }
 
+/* Styling background text layout  */
 
+.text {
+    background-color: white;
+}
+
+/* Positoning iframe */
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* Proportion iframe */
+
+iframe {
+    width: 1200px;
+    min-height: 600px;
+}
 
 
 
