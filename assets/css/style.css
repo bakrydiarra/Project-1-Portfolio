@@ -262,6 +262,23 @@ footer {
     align-items: center;
 }
 
+/* Styling into text - all pages except Home page */
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro h1 {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+#intro p {
+    padding: 2rem;
+}
+
 /* givin a size to paragraph */
 
 .layout-item {
@@ -321,6 +338,24 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Center and align the text from our main layout text  */
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2 {
+    text-align: center;
+}
+
+.text p {
+    padding: 2rem;
+}
+
+
 
 
 
