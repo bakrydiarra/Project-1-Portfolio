@@ -229,7 +229,6 @@ ul h1 {
     font-size: 355%;
 }
 
-
 /* positioning of the heading center in the secton - all pages */
 
 #tip {
@@ -265,7 +264,6 @@ footer {
 .social-networks i:hover {
     color: var(--myyellow);
 }
-
 
 /* postioning the icons in the footer- all pages  */
 
@@ -335,8 +333,6 @@ footer {
         padding-top: 1rem;
     }
 }
-
-
 
 /* Set background images cover because source different size to be used with img element  */
 
@@ -476,9 +472,6 @@ iframe {
     align-items: center;
 }
 
-
-
-
 #image9 {
     background-color: var(--mypink);
     background-image: url('../images/Ludmilla-Mary-Rose-by-Stephanie-Hildebrand.jpg');
@@ -487,3 +480,53 @@ iframe {
     background-repeat: no-repeat;
 
 }
+
+/* Gallery */
+
+#photos {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos {
+    width: 100%;
+}
+
+/* background-image confirmation contact sent */
+
+
+#sent {
+    background-color: var(--mypink);
+    background-image: url("../images/La-Grande-Intendante.jpg");
+    min-height: 1200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:600px) {
+    #sent {
+        background-color: var(--mypink);
+        background-image: url(../images/Portrait-Ludmilla-Mary-Web.jpg);
+        min-height: 350px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+#sent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sent h1 {
+    font-size: 72px;
+    color: var(--myyellow);
+}
+
+
