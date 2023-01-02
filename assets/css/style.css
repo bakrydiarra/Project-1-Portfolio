@@ -351,7 +351,7 @@ footer {
 
 #image2 {
     background-color: var(--mypink);
-    background-image: url('../images/Ludmilla-Mary-by-Jeremy-Patlen\ .jpg');
+    background-image: url('../images/Ludmilla-Mary-by-Jeremy-Patlen.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -423,5 +423,15 @@ iframe {
     }
 }
 
+/* Set background image for Be Real  */
+
+#image5 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-sitting-on-stairs-by-Anne-Mourier.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 
 
