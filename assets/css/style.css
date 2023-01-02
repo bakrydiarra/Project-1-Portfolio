@@ -321,6 +321,23 @@ footer {
     
 }
 
+/* Responsive interaction layout text/photo breacking-point 725px column formation */
+
+@media (max-width:725px) {
+    .align-motto {
+        flex-direction: column;
+    }
+    .text {
+        max-height: 350px;
+    }
+
+    .text h2 {
+        padding-top: 1rem;
+    }
+}
+
+
+
 /* Set background images cover because source different size to be used with img element  */
 
 #image1 {
@@ -396,6 +413,14 @@ iframe {
 iframe {
     width: 1200px;
     min-height: 600px;
+}
+
+/* Responsive interaction iframe breacking-point 725px column formation */
+
+@media (max-width:1200px) {
+    iframe {
+        width: 600px;
+    }
 }
 
 
