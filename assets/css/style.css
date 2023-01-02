@@ -342,7 +342,7 @@ footer {
 
 #image1 {
     background-color: var(--mypink);
-    background-image: url('../images/Ludmilla-Mary-walking-on-a-bridge.jpg');
+    background-image: url('../images/Ludmilla_Mary-walking-on-a-bridge.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -434,4 +434,56 @@ iframe {
 
 }
 
+#image6 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-Sofa-eating-by-Anne-Mourier.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+}
+
+#image7 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-blasee-by-Jeremy_bodies.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#image8 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-by-Jeremy_bodies.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+/* Setting Background-image cover- page be me */
+
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#image9 {
+    background-color: var(--mypink);
+    background-image: url('../images/Ludmilla-Mary-Rose-by-Stephanie-Hildebrand.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
