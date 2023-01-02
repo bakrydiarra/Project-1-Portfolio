@@ -526,7 +526,7 @@ input {
 }
 
 /* Gallery */
-
+/* 
 #photos {
     line-height: 0;
     column-count: 3;
@@ -535,8 +535,22 @@ input {
 
 #photos {
     width: 100%;
+} */
+
+.container-photos {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
 }
 
+#photos {
+   /*  width: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* background-image confirmation contact sent */
 
