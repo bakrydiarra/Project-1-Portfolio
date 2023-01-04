@@ -203,6 +203,15 @@ ul h1 {
     }
 }
 
+/* Responsive interaction layout Motto text/photo breacking-point 725px column */
+
+@media (max-width:725px) {
+    .align-motto {
+        flex-direction: column;
+    }
+}
+
+
 /* Tip to direct the user to the next page - all pages */
 
 #tip {
@@ -318,21 +327,6 @@ footer {
     
 }
 
-/* Responsive interaction layout text/photo breacking-point 725px column formation */
-
-@media (max-width:725px) {
-    .align-motto {
-        flex-direction: column;
-    }
-    .text {
-        max-height: 400px;
-    }
-
-    .text h2 {
-        padding-top: 1rem;
-    }
-}
-
 /* Set background images - page Be Fierce  */
 
 #image1 {
@@ -368,6 +362,7 @@ footer {
     background-repeat: no-repeat;
 }
 
+
 /* Center and align the text from our main layout text - all pages except Home page and Gallery  */
 
 .text {
@@ -382,12 +377,29 @@ footer {
 
 .text p {
     padding: 2rem;
+    text-align: center;
 }
+
 
 /* Styling background text layout  */
 
 .text {
     background-color: white;
+}
+
+Responsive
+
+@media (max-width:480px) {
+    .layout-item {
+        max-width: 380px;
+        min-width: 300;
+    }
+}
+
+@media (max-width:600px) {
+.text {
+    max-height: 475px;
+}
 }
 
 /* Positoning iframe - pages Be Fierce, Be Real */
@@ -416,6 +428,12 @@ iframe {
 @media (max-width:1200px) {
     iframe {
         width: 600px;
+    }
+}
+
+@media (max-width:600px) {
+    iframe {
+        width: 300px;
     }
 }
 
@@ -527,6 +545,16 @@ input {
     justify-content: center;
     align-items: center; 
 }
+
+/* Responsive gallery breaking point 600px */
+
+@media (max-width:600px) {
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 
 /* background-image confirmation contact sent */
 
