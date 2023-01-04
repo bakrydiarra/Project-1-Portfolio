@@ -325,7 +325,7 @@ footer {
         flex-direction: column;
     }
     .text {
-        max-height: 350px;
+        max-height: 400px;
     }
 
     .text h2 {
@@ -403,11 +403,12 @@ iframe {
     padding-bottom: 2rem;
 }
 
-/* Proportion iframe */
+/* Proportion iframe*/
 
 iframe {
     width: 1200px;
     min-height: 600px;
+    border: none;
 }
 
 /* Responsive interaction iframe breacking-point 725px column formation */
