@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Josefin+Sans:ital@1&display=swap');
 
+/* CSS Reset */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
+
+/* Set general format - all pages */
 
 body {
     background-color: var(--mypink);
@@ -28,8 +32,6 @@ p {
     font-size: 20px;
 }
 
-
-
 /* Set two variable for color  */
 
 :root {
@@ -46,14 +48,12 @@ p {
 
 /* Header Styling - all pages */
 
-
 header {
     background: white;
     min-height: 80px;
     width: 100%;
     font-weight: 900;
-    font-family: 'Josefin Sans', sans-serif;
-    
+    font-family: 'Josefin Sans', sans-serif; 
 }
 
 /* Styling nav bar direction - all pages  */
@@ -109,13 +109,13 @@ ul h1 {
 
 }
 
-/* Styling navigation to signify in which page the user is */
+/* Styling navigation to signify in which page the user is- all pages */
 
 .active {
     border-bottom: 3px solid rgba(0, 85, 102,1);
 }
 
-/* Cover image stretching the full width and lenght from the section -Home Page  */
+/* Cover image stretching the full width and lenght from the section - Home Page  */
 
 #cover {
     background-color: var(--mypink);
@@ -141,7 +141,7 @@ ul h1 {
     }
 }
 
-/* Styling of the motto postioning, dimension -Home page */
+/* Styling of the motto postioning, dimension -Home page - inspiration @Vlt_dev for the micro structure and color tpye, I elevate the model */
 
 .motto {
     display: flex;
@@ -168,7 +168,7 @@ ul h1 {
     }
 }
 
-/* Styling of the motto postioning, dimension -Home page */
+/* Styling of the motto postioning, dimension - Home page */
 
 .align-motto {
     display: flex;
@@ -203,8 +203,7 @@ ul h1 {
     }
 }
 
-
-/* direct the user to the next page - all pages */
+/* Tip to direct the user to the next page - all pages */
 
 #tip {
     background-color: var(--mypink);
@@ -212,7 +211,7 @@ ul h1 {
     width: 100%;
 }
 
-/* styling of the heading for the last section before footer - all pages */
+/* styling of the heading for the tip - all pages */
 
 #tip h2 {
     font-family: 'dancing script', sans-serif;
@@ -229,7 +228,7 @@ ul h1 {
     font-size: 355%;
 }
 
-/* positioning of the heading center in the secton - all pages */
+/* positioning of the heading tip - all pages */
 
 #tip {
     display: flex;
@@ -277,7 +276,7 @@ footer {
     align-items: center;
 }
 
-/* Center intro - all pages except Home page */
+/* Center intro - pages Be Fierce, Be Real */
 
 .intro {
     display: flex;
@@ -302,7 +301,7 @@ footer {
 }
 
 
-/* Positioning img and text - all pages except home page */
+/* Positioning img and text - all pages except home page and Gallery */
 
 #container-layout {
     display: flex;
@@ -334,7 +333,7 @@ footer {
     }
 }
 
-/* Set background images cover because source different size to be used with img element  */
+/* Set background images - page Be Fierce  */
 
 #image1 {
     background-color: var(--mypink);
@@ -369,7 +368,7 @@ footer {
     background-repeat: no-repeat;
 }
 
-/* Center and align the text from our main layout text  */
+/* Center and align the text from our main layout text - all pages except Home page and Gallery  */
 
 .text {
     display: flex;
@@ -391,7 +390,7 @@ footer {
     background-color: white;
 }
 
-/* Positoning iframe */
+/* Positoning iframe - pages Be Fierce, Be Real */
 
 .video {
     display: flex;
@@ -427,7 +426,6 @@ iframe {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 #image6 {
@@ -436,7 +434,6 @@ iframe {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 #image7 {
@@ -445,7 +442,6 @@ iframe {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 #image8 {
@@ -454,18 +450,14 @@ iframe {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-
-/* Setting Background-image cover- page be me */
-
+/* Positioning contact form */
 
 .form {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .signup {
@@ -481,7 +473,7 @@ iframe {
     margin-bottom: 1rem;
 }
 
-/* Styling form contact */
+/* Styling contact form */
 
 details {
     margin-bottom: 1rem;
@@ -510,10 +502,6 @@ input {
     margin-top: 1rem;
 }
 
-
-
-
-
 /* Backgroung image next to the contact form */
 
 #image9 {
@@ -522,20 +510,9 @@ input {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-/* Gallery */
-/* 
-#photos {
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-}
-
-#photos {
-    width: 100%;
-} */
+/* Positioning Gallery */
 
 .container-photos {
     display: flex;
@@ -544,16 +521,13 @@ input {
 }
 
 #photos {
-   /*  width: 600px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 /* background-image confirmation contact sent */
-
 
 #sent {
     background-color: var(--mypink);
@@ -576,6 +550,8 @@ input {
         background-size: cover;
     }
 }
+
+/* Positioning the title in the background from confirmation page */
 
 #sent {
     display: flex;
