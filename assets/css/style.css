@@ -125,19 +125,22 @@ ul h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /* Responsive cover background image beaking point 600 px */
 
-@media (max-width:600px) {
+@media (max-width:480px) {
     #cover {
         background-color: var(--mypink);
         background-image: url(../images/Portrait-Ludmilla-Mary-Web.jpg);
-        min-height: 350px;
-        width: 100%;
-        background-position: center;
+        /* min-height: 350px;
+        width: 100%; */
+        /* background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
+        max-height: 350px;
+        width: auto;
     }
 }
 
@@ -391,13 +394,13 @@ footer {
 @media (max-width:480px) {
     .layout-item {
         max-width: 380px;
-        min-width: 300;
+        min-width: 300px;
     }
 }
 
 @media (max-width:600px) {
 .text {
-    max-height: 475px;
+    height: auto;
 }
 }
 
@@ -594,3 +597,7 @@ input {
     color: var(--myyellow);
 }
 
+#sent p {
+    font-size: 32px;
+    color: var(--myyellow);
+}
