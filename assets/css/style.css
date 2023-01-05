@@ -128,19 +128,12 @@ ul h1 {
     overflow-x: hidden;
 }
 
-/* Responsive cover background image beaking point 600 px */
+/* Responsive cover background image beaking point 480 px */
 
 @media (max-width:480px) {
     #cover {
         background-color: var(--mypink);
-        background-image: url(../images/Portrait-Ludmilla-Mary-Web.jpg);
-        /* min-height: 350px;
-        width: 100%; */
-        /* background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
-        max-height: 350px;
-        width: auto;
+        background-image: none;
     }
 }
 
@@ -163,25 +156,19 @@ ul h1 {
     align-items: center;
 }
 
-/* Responsive breaking point 505px  */
-
-@media (max-width: 505px) {
-    .motto {
-        flex-direction: column;
-    }
-}
-
-/* Styling of the motto postioning, dimension - Home page */
-
 .align-motto {
     display: flex;
 }
 
-/* Responsive breaking point 725px  */
+/* Responsive Motto breaking point 450px  */
 
-@media (max-width:725px) {
-    .align-motto {
+@media (max-width: 450px) {
+    .motto {
         flex-direction: column;
+    }
+    .align-motto {
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -310,7 +297,6 @@ footer {
     width: 600px;
     height: 950px;
 }
-
 
 /* Positioning layout img and text - all pages except home page and Gallery */
 
@@ -556,7 +542,6 @@ input {
         height: 300px;
     }
 }
-
 
 /* background-image confirmation contact sent */
 
