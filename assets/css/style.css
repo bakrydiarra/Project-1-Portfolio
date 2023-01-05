@@ -391,6 +391,9 @@ footer {
 .text {
     height: auto;
 }
+.text h2 {
+    margin-top: 2rem;
+}
 }
 
 /* Positoning iframe - pages Be Fierce, Be Real */
