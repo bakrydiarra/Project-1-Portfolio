@@ -23,8 +23,8 @@ h2 {
     font-size: 32px;
 }
 
-.intro h1 {
-    font-size: 32px;
+h1 {
+    font-size: 36px;
 }
 
 p {
@@ -64,14 +64,6 @@ header {
     align-items: center;
 }
 
-/* Responsive resizing navigation breaking-point 480 width - all pages  */
-
-@media (max-width:600px) {
-    .nav-list {
-        flex-direction: column;
-    }
-}
-
 /* Nav items styling - all pages */
 
 .nav-item {
@@ -87,11 +79,23 @@ header {
     color: var(--mypink)
 }
 
-/* Nav items styling - all pages */
+/* Nav items positioning - all pages */
 
 .nav-item:first-child {
     margin-right: auto;
 }
+
+/* Responsive resizing navigation breaking-point 480 width - all pages  */
+
+@media (max-width:600px) {
+    .nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
 
 /* Navigation logo styling - all pages */
     
@@ -115,7 +119,7 @@ ul h1 {
     border-bottom: 3px solid rgba(0, 85, 102,1);
 }
 
-/* Cover image stretching the full width and lenght from the section - Home Page  */
+/* Cover background-image - Home Page  */
 
 #cover {
     background-color: var(--mypink);
@@ -128,7 +132,7 @@ ul h1 {
     overflow-x: hidden;
 }
 
-/* Responsive cover background image beaking point 480 px */
+/* Responsive cover background-image beaking point 480 px */
 
 @media (max-width:480px) {
     #cover {
@@ -212,8 +216,6 @@ ul h1 {
 /* styling of the heading for the tip - all pages */
 
 #tip h2 {
-    font-family: 'dancing script', sans-serif;
-    font-size: 32px;
     color: var(--myyellow);
 }
 
@@ -384,7 +386,7 @@ footer {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:1200px) {
 .text {
     height: auto;
 }
