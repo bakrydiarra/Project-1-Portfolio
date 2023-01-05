@@ -17,7 +17,7 @@ A live link for the site can be found here: (https://bakrydiarra.github.io/Proje
 
 
 ## Index – Table of Contents
-* [User Experience (UX)](#user-experience-ux) 
+* [User Experience (UX)](#user-experience-ux)
 * [Features](#features)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -32,6 +32,8 @@ A live link for the site can be found here: (https://bakrydiarra.github.io/Proje
 - Frequent user experience: to consider the website as an artistic curiosity.
 
 - Main Objective: Get  new followers for Ludmilla-.Mary -attention to the art work of 2Fik. To achieve our goals, the website muss be easy to navigate,  with a minimalist aesthetic to emphasise the pictures of Ludmilla-Mary illustrated with  t4ext which underline her guerrilla catwalk activism philosophy. Some discret playfully call for action guidance bring the user to navigate furthermore. The skeleton of our design was based on hand made sketched wireframes of the desktop appearance.
+
+### Issues Faced during development
 
 
 ## Features
@@ -50,8 +52,6 @@ A live link for the site can be found here: (https://bakrydiarra.github.io/Proje
 
 
    ![Nav Bar](/assets/readme_images/nav_bar.png)
-
-
 
 
 
@@ -132,26 +132,84 @@ A live link for the site can be found here: (https://bakrydiarra.github.io/Proje
 
 ### Features which could be implemented in the future
 
+- Modal Images
+  - Clicking on images to increase image size and create focus/zoom on one image
+  - Add caption for the  photographers' credits without altering the structure of the gallery
+  - Additonal Pages such as :
+    - Bio: to give more background about Ludmmilla-Mary
+    - Events section: to inform when Ludmilla-Mary perform in the street
+    - Video Gallery to extend the portofolio
+    - Section with daily tips to be fierce every day
+
 ## Testing
 
 ### Validator Testing
 
+ - HTML : No errors were detected when passing the site through the official.
+
+
+  ![HTML VALIDATOR](/assets/readme_images/Be-Me_HTML.png)
+  ![HTML VALIDATOR](/assets/readme_images/Gallery-HTML.png)
+  ![HTML VALIDATOR](/assets/readme_images/index-HTML.png)
+
+ - CSS : No errors were detected when passing the site through the official.
+
+ ![CSS VALIDATOR](/assets/readme_images/Be-me-css.png)
+ ![CSS VALIDATOR](/assets/readme_images/Gallery-css.png)
+ ![CSS VALIDATOR](/assets/readme_images/index-css.png)
+
+### Lighthouse Testing
+ 
+ ![Lighthouse](/assets/readme_images/Be-fierce-desktop.png)
+ ![Lighthouse](/assets/readme_images/Be-Fierce-mobile.png)
+ ![Lighthouse](/assets/readme_images/Gallery-desktop.png)
+ ![Lighthouse](/assets/readme_images/Gallery-Mobile.png)
+ ![Lighthouse](/assets/readme_images/Home-page-mobile.png)
+
+
 ### Browser Compatibility
+
+ - Testing has been carried out on the following browsers :
+  - Safari on macOS Ventura (Safari  Version 13.0.1)
+  - Chrome Version Version  Version 108.0.5359.124 
 
 ### Test Cases and Results
 
-### Known bugs
+ - Chrome Developer tools and Mozilla Firefox Web Developer Tools were used throughout the development of the site to test functionality.
+ - To check the respponsive design, I also used (http://www.responsinator.com/) 
+
+
 
 ## Deployment
 
-### How this site was deployed
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+ - In the Github repository, navigate to the Settings tab
+ - From the source section drop-down menu, select the main branch
+ - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+ - The live link can be found here: (https://bakrydiarra.github.io/Project-1-Portfolio/)
+
+ 
+
 
 ## Credits 
 
 ### Code
+  
+- The icons used in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- HTML and CSS lessons from [W3Schools](https://www.w3schools.com/) were used as reference when designing the site, for example implementing flexbox in the gallery or styling contact form.
+
+- Code Institute materials were used to assist writing README file, such as the [README template](https://github.com/Code-Institute-Solutions/readme-template) and the [Markdown Cheatsheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+- The Code Institute [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used as a template to begin building this site
+
+- Site responsivness visualised using [Am I Responsive?](https://ui.dev/amiresponsive)
 
 ### Media 
 
+ - The photos used for the website were procvided by the artist 2Fik,
+
 ### Content
+ 
+ - All texts were written by myself.
 
 ### Acknowledgments
