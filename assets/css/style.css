@@ -85,9 +85,9 @@ header {
     margin-right: auto;
 }
 
-/* Responsive resizing navigation breaking-point 480 width - all pages  */
+/* Responsive resizing navigation breaking-point 768px width - all pages  */
 
-@media (max-width:600px) {
+@media (max-width:768px) {
     .nav-list {
         flex-direction: column;
         justify-content: center;
