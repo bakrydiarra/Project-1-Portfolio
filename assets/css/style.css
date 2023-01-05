@@ -90,15 +90,8 @@ header {
 @media (max-width:768px) {
     .nav-list {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    li h1 {
-        text-align: center;
-    }
-
 }
-
+}
 
 /* Navigation logo styling - all pages */
     
@@ -113,7 +106,6 @@ ul h1 {
 .nav-item a:hover {
     color: var(--myyellow);
     font-size: 150%;
-
 }
 
 /* Styling navigation to signify in which page the user is- all pages */
