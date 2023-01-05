@@ -33,6 +33,16 @@ A live link for the site can be found here: (https://bakrydiarra.github.io/Proje
 
 - Main Objective: Get  new followers for Ludmilla-.Mary -attention to the art work of 2Fik. To achieve our goals, the website muss be easy to navigate,  with a minimalist aesthetic to emphasise the pictures of Ludmilla-Mary illustrated with  t4ext which underline her guerrilla catwalk activism philosophy. Some discret playfully call for action guidance bring the user to navigate furthermore. The skeleton of our design was based on hand made sketched wireframes of the desktop appearance.
 
+  - ### Wireframes
+
+  ![Sketch](/assets/readme_images/IMG_3852.jpg)
+  ![Sketch](/assets/readme_images/IMG_3853.jpg)
+  ![Sketch](/assets/readme_images/IMG_3854.jpg)
+  ![Sketch](/assets/readme_images/IMG_3855.jpg)
+  ![Sketch](/assets/readme_images/IMG_3856.jpg)
+
+  
+
 ### Issues Faced during development
 
 
