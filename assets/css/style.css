@@ -93,6 +93,9 @@ header {
         justify-content: center;
         align-items: center;
     }
+    li h1 {
+        text-align: center;
+    }
 
 }
 
