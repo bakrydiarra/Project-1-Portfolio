@@ -266,7 +266,7 @@ _Registration Newsletter testing_
    - Jeremy Patlen aka _bodies
    - Stephanie Hildebrand
    - Anne Mourier
-
+- two youtube videos as iframe were used from the 2fik youtube channel (https://www.youtube.com/watch?v=lrciTBNdC-M&t=2s) and (https://www.youtube.com/watch?v=uGBax4nKIQ0)
 ### Content
  
  - All texts were written by me.
