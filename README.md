@@ -8,7 +8,7 @@
 ## Site Info
 
 * Ludmilla-Mary is designed as a portfolio for a fictional character created by the artist 2fik . The purpose of the website is to encourage people to be fierce by embracing Ludmilla-Mary’s catwalk activism philosophy.  There is also a contact page which can be used to register to Ludmilla-Mary’s newsletter. Ludmilla-Mary’s website lends his character more complexity and anchors him even more in our reality. The website  is a touching, funny and insolent representation of Ludmilla-Mary. 
-This website is targeted towards 2fik’s  art work supporters who follow Ludmilla-Mary’s tribulations. Ludmilla-Mary’s website will be useful for followers or newcomers to understand  her colorfull world. It is as well a  good illustration for an influencer parody portfolio where laughters are combined with curiosity.
+This website is targeted towards 2fik’s art work supporters who follow Ludmilla-Mary’s tribulations. Ludmilla-Mary’s website will be useful for followers or newcomers to understand  her colorfull world. It is as well a  good illustration for an influencer parody portfolio where laughters are combined with curiosity.
 
 * This is my Project Portfolio 1 submission for Code Institute's Diploma in Web Application Development course. Technologies used include HTML, CSS.
 
@@ -25,11 +25,12 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
 
 -   ### User stories
 
-- A first time user experience:  To be intrigued and want to discover who’s Ludmilla-Mary and to understand the motto of Landing page Be Fierce, Be Real, Be Me. The contact form is an invitation to access more  information about the character.
+- A first time user experience:  To be intrigued and want to discover who’s Ludmilla-Mary and to understand the motto of Landing page Be Fierce, Be Real, Be Me. The contact form is an invitation to access 
+  more  information about the character.
 -  Returning user experience: to dive  deeper into the strange world of Ludmilla-Mary  and enjoy  the ironic humor of the website and click to the social media to discover 2fik’s universe.
 - Frequent user experience: to consider the website as an artistic curiosity.
 
-- Main Objective: Get  new followers for Ludmilla-.Mary -attention to the art work of 2Fik. To achieve our goals, the website muss be easy to navigate,  with a minimalist aesthetic to emphasise the pictures of Ludmilla-Mary illustrated with  t4ext which underline her guerrilla catwalk activism philosophy. Some discret playfully call for action guidance bring the user to navigate furthermore. The skeleton of our design was based on hand made sketched wireframes of the desktop appearance.
+- Main Objective: Get  new followers for Ludmilla-Mary and attention to the art work of 2Fik. To achieve our goals, the website muss be easy to navigate,  with a minimalist aesthetic to emphasise the pictures of Ludmilla-Mary illustrated with  text which underline her guerrilla catwalk activism philosophy. Some discret playfully call for action guidance bring the user to navigate furthermore. The skeleton of our design was based on hand made sketched wireframes of the desktop appearance.
 
 
   - ### Wireframes
@@ -40,7 +41,7 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
    ![Sketch](/assets/readme_images/IMG_3855.jpg)
    ![Sketch](/assets/readme_images/IMG_3856.jpg)
 
-   - The sketches indicate a strategy focused on the desktop first. The mobile version was main to be reflected with the flex-box reaction, considering with two columns for all pages - except for Home page and confirmaton page. The idea was to count on the height perspective to pile up our content.
+   - The sketches indicate a strategy focused on the desktop first. The mobile version was main to be reflected with the flex-box reaction, considering that we have a desktop layout with two columns for all pages - except for Home page and confirmaton page. The idea was to count on the height perspective to pile up our content.
    - The picture as logo was abandonned due to technique difficulties and for a better time management.
    - The social media icons were reduced to 3 and postioned in the center of the footer for aesthetic purpose.
    - A video was added to the page Be Real in order to have a coherence with the page Be fierce.
@@ -49,14 +50,14 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
    ### Issues Faced during development
 
     - Background-image was often used to avoid resizing issue with the images. But the gallery showed that it could have been possible to work with the chosen structure with the img element.
-    - This indicates the possiblity to work later on the visual content to improve the quality of the image and a better responsive sizing for all devices.
+    - This indicates the possiblity to work later on the visual content to improve the quality of the images and give a better responsive sizing for all devices.
     - The text content once displayed in column required a lot proportions skills to offer a cohesive visual. The actual result is satisfactory but could be improved with more skills and time.
     
 
   - ### Design
 
   -   ### Website style
-    - The style of the website chosen was 2 formats, one implemting to the Home-page and the Confirmation, the other one for Be Fierce, Be Real and Be Me. This allows the user to not only navigate to each page from the nav bar and the little expression above the footer.
+    - The style of the website chosen was 2 formats, one implemting to the Home-page and the Confirmation, the other one for Be Fierce, Be Real and Be Me. The navigation bar and the little expression above the footer allow the user to navigate to each page. The font-familly chosen for the text are the pair Dancing Script and Josefin Sans giving a feminine touch.
 
 -   ### Imagery
     -  The visual cohesion is maintained by the photos that represent constantly Ludmilla-Mary. 
@@ -66,12 +67,14 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
  
 ## Features
 
+
 ### Existing Features
+
 
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page (Be Me) and is identical in each page to allow for easy navigation.
 
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button
@@ -141,7 +144,7 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
 
  - __Confirmtion__
 
-   - This page informs the user that he did registered to Ludmilla-Mary's newsletter.
+   - This page informs the user that he did properly registered to Ludmilla-Mary's newsletter.
 
 
    ![Confirmation](/assets/readme_images/confiramation-registration.png)
@@ -163,7 +166,7 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
   - Add caption for the  photographers' credits without altering the structure of the gallery
   - Additonal Pages such as :
     - Bio: to give more background about Ludmmilla-Mary
-    - Events section: to inform when Ludmilla-Mary perform in the street
+    - Events section: to inform when Ludmilla-Mary performs in the street
     - Video Gallery to extend the portofolio
     - Section with daily tips to be fierce every day
 
@@ -207,7 +210,7 @@ This website is targeted towards 2fik’s  art work supporters who follow Ludmil
     behaviour, alignment correctness etc.
  - To check the respponsive design, I also used (http://www.responsinator.com/) 
  - Site responsivness visualised using [Am I Responsive?](https://ui.dev/amiresponsive)
- - Manual testing on different browsers and devices, those mentionned above and had feedback from friends regarding other various devices.
+ - Manual testing on different browsers and devices, those mentionned above and had feedbacks from friends regarding other various devices.
 
 
 _Nav bar testing_
@@ -257,7 +260,7 @@ _Registration Newsletter testing_
  - The icons used in the footer were taken from [Font Awesome](https://fontawesome.com/)
  - The fonts used were imported from [Google Fonts](https://fonts.google.com/)
  - The photos used for the website were procvided by the artist 2Fik.
- - Photograhers contribution:
+ - Photograhers:
    - 2fik
    - Richard Rhyme
    - Jeremy Patlen aka _bodies
